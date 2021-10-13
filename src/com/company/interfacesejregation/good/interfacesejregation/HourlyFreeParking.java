@@ -4,27 +4,27 @@ import com.company.interfacesejregation.Car;
 
 class HourlyFreeParking implements  GoodParkingLot , PaidParkingLot{
     @Override
-    public void parkCar() {
+    public void parkCar() { // GoodParkingLot
 
     }
 
     @Override
-    public void unParkCar() {
+    public void unParkCar() { // GoodParkingLot
 
     }
 
     @Override
-    public void getCapacity() {
+    public void getCapacity() { //GoodParkingLot
 
     }
 
     @Override
-    public double calculateFree(Car car) {
+    public double calculateFree(Car car) { // PaidParkingLot
         return 0;
     }
 
     @Override
-    public void doPayment(Car car) {
+    public void doPayment(Car car) { // PaidParkingLot
 
     }
 }
